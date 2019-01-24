@@ -97,27 +97,6 @@ CREATE TABLE `order` (
 -- ----------------------------
 -- Records of order
 -- ----------------------------
-
--- ----------------------------
--- Table structure for `ord_detail`
--- ----------------------------
-DROP TABLE IF EXISTS `ord_detail`;
-CREATE TABLE `ord_detail` (
-  `id_pro` int(11) NOT NULL,
-  `id_cat` int(11) NOT NULL,
-  `amount` int(11) NOT NULL,
-  `price_pro` int(11) NOT NULL,
-  `price_sale_pro` int(11) DEFAULT NULL,
-  KEY `pro_orddt` (`id_pro`),
-  KEY `cat_orddt` (`id_cat`),
-  CONSTRAINT `cat_orddt` FOREIGN KEY (`id_cat`) REFERENCES `category` (`id_cat`),
-  CONSTRAINT `pro_orddt` FOREIGN KEY (`id_pro`) REFERENCES `product` (`id_pro`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of ord_detail
--- ----------------------------
-
 -- ----------------------------
 -- Table structure for `product`
 -- ----------------------------
@@ -141,3 +120,25 @@ CREATE TABLE `product` (
 -- ----------------------------
 -- Records of product
 -- ----------------------------
+
+-- ----------------------------
+-- Table structure for `ord_detail`
+-- ----------------------------
+DROP TABLE IF EXISTS `ord_detail`;
+CREATE TABLE `ord_detail` (
+  `id_pro` int(11) NOT NULL,
+  `id_cat` int(11) NOT NULL,
+  `amount` int(11) NOT NULL,
+  `price_pro` int(11) NOT NULL,
+  `price_sale_pro` int(11) DEFAULT NULL,
+  KEY `pro_orddt` (`id_pro`),
+  KEY `cat_orddt` (`id_cat`),
+  CONSTRAINT `cat_orddt` FOREIGN KEY (`id_cat`) REFERENCES `category` (`id_cat`),
+  CONSTRAINT `pro_orddt` FOREIGN KEY (`id_pro`) REFERENCES `product` (`id_pro`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of ord_detail
+-- ----------------------------
+
+
