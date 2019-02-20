@@ -22,13 +22,26 @@ Route::group(['prefix'=>'admin','namespace'=>'Admin'],function(){
 	Route::get('/delete-catetogy/{id}','CategoryController@destroy')->name('delete-cat');
 });
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/','HomeController@index');
+
+Route::get('/','HomeController@index')->name('home');
 Route::get('/shop', function () {
 	return view('shop');
 })->name('shop');
 Route::get('contact-us', function(){
 	return view('contact-us');
 })->name('contact-us');
+Route::get('my-account',function(){
+	return view('my-account');
+})->name('my-account');
+Route::get('cart',function(){
+	return view('cart');
+})->name('cart');
+Route::get('checkout',function(){
+	return view('checkout');
+})->name('checkout');
+Route::get('wishlist',function(){
+	return view('wishlist');
+})->name('wishlist');
+Route::get('order-tracking',function(){
+	return view('order-tracking');
+})->name('order-tracking');

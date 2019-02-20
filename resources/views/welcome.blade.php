@@ -45,7 +45,7 @@
                         <div class="col-xl-10 col-lg-9 col-3">
                             <nav class="main-navigation">
                                 <div class="site-branding">
-                                    <a href="" class="logo">
+                                    <a href="{{route('home')}}" class="logo">
                                         <figure class="logo--transparent">
                                             <img src="public/assets/img/logo/Logo.png" alt="Logo">
                                         </figure>
@@ -57,7 +57,7 @@
                                 <div class="mainmenu-nav d-none d-lg-block">
                                     <ul class="mainmenu">
                                         <li class="mainmenu__item menu-item-has-children active">
-                                            <a href="index.html" class="mainmenu__link">
+                                            <a href="{{route('home')}}" class="mainmenu__link">
                                                 <span class="mm-text">Home</span>
                                             </a>
                                         </li>
@@ -65,136 +65,6 @@
                                             <a href="{{route('shop')}}" class="mainmenu__link">
                                                 <span class="mm-text">Shop</span>
                                             </a>
-                                            <ul class="megamenu">
-                                                <li>
-                                                    <a class="megamenu-title" href="#">
-                                                        <span class="mm-text">Shop Grid</span>
-                                                    </a>
-                                                    <ul>
-                                                        <li>
-                                                            <a href="shop-fullwidth.html">
-                                                                <span class="mm-text">Full Width</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop.html">
-                                                                <span class="mm-text">Left Sidebar</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop-right-sidebar.html">
-                                                                <span class="mm-text">Right Sidebar</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop-three-columns.html">
-                                                                <span class="mm-text">Three Columns</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop-four-columns.html">
-                                                                <span class="mm-text">Four Columns</span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a class="megamenu-title" href="#">
-                                                        <span class="mm-text">Shop List</span>
-                                                    </a>
-                                                    <ul> 
-                                                        <li>
-                                                            <a href="shop-list.html">
-                                                                <span class="mm-text">Full Width</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop-list-sidebar.html">
-                                                                <span class="mm-text">Left Sidebar</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="shop-list-right-sidebar.html">
-                                                                <span class="mm-text">Right Sidebar</span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a class="megamenu-title" href="#">
-                                                        <span class="mm-text">Product Details</span>
-                                                    </a>
-                                                    <ul>
-                                                        <li>
-                                                            <a href="product-details.html">
-                                                                <span class="mm-text">Tab Style 1</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="product-details-tab-style-2.html">
-                                                                <span class="mm-text">Tab Style 2</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="product-details-tab-style-3.html">
-                                                                <span class="mm-text">Tab Style 3</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="product-details-gallery-left.html">
-                                                                <span class="mm-text">Gallery Left</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="product-details-gallery-right.html">
-                                                                <span class="mm-text">Gallery Right</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="product-details-sticky-left.html">
-                                                                <span class="mm-text">Sticky Left</span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a class="megamenu-title" href="#">
-                                                        <span class="mm-text">Product Details</span>
-                                                    </a>
-                                                    <ul>
-                                                        <li>
-                                                            <a href="product-details-sticky-right.html">
-                                                                <span class="mm-text">Sticky Right</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="product-details-slider-box.html">
-                                                                <span class="mm-text">Slider Box</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="product-details-slider-full-width.html">
-                                                                <span class="mm-text">Slider Box Full Width</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="product-details-affiliate.html">
-                                                                <span class="mm-text">Affiliate Proudct</span>
-                                                            </a>
-                                                        </li>                                                    
-                                                        <li>
-                                                            <a href="product-details-variable.html">
-                                                                <span class="mm-text">Variable Proudct</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="product-details-group.html">
-                                                                <span class="mm-text">Group Product</span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
                                         </li>
                                         <li class="mainmenu__item menu-item-has-children">
                                             <a href="#" class="mainmenu__link">
@@ -202,17 +72,17 @@
                                             </a>
                                             <ul class="sub-menu">
                                                 <li>
-                                                    <a href="my-account.html">
+                                                    <a href="{{route('my-account')}}">
                                                         <span class="mm-text">My Account</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="checkout.html">
+                                                    <a href="{{route('wishlist')}}">
                                                         <span class="mm-text">Checkout</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="cart.html">
+                                                    <a href="{{route('cart')}}">
                                                         <span class="mm-text">Cart</span>
                                                     </a>
                                                 </li>
@@ -222,12 +92,12 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="order-tracking.html">
+                                                    <a href="{{route('order-tracking')}}">
                                                         <span class="mm-text">Track Order</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="wishlist.html">
+                                                    <a href="{{route('wishlist')}}">
                                                         <span class="mm-text">Wishlist</span>
                                                     </a>
                                                 </li>
@@ -245,7 +115,7 @@
                         <div class="col-xl-2 col-lg-3 col-9 text-right">
                             <ul class="header-toolbar">
                                 <li class="header-toolbar__item">
-                                    <a href="wishlist.html" class="header-toolbar__btn">
+                                    <a href="{{route('wishlist')}}" class="header-toolbar__btn">
                                         <i class="flaticon flaticon-like"></i>
                                     </a>
                                 </li>
@@ -261,19 +131,19 @@
                                     </a>
                                     <ul class="user-info-menu">
                                         <li>
-                                            <a href="my-account.html">My Account</a>
+                                            <a href="{{route('my-account')}}">My Account</a>
                                         </li>
                                         <li>
-                                            <a href="cart.html">Shopping Cart</a>
+                                            <a href="{{route('cart')}}">Shopping Cart</a>
                                         </li>
                                         <li>
-                                            <a href="checkout.html">Check Out</a>
+                                            <a href="{{route('checkout')}}">Check Out</a>
                                         </li>
                                         <li>
-                                            <a href="wishlist.html">Wishlist</a>
+                                            <a href="{{route('wishlist')}}">Wishlist</a>
                                         </li>
                                         <li>
-                                            <a href="order-tracking.html">Order tracking</a>
+                                            <a href="{{route('order-tracking')}}">Order tracking</a>
                                         </li>
                                         <li>
                                             <a href="compare.html">compare</a>
@@ -324,7 +194,7 @@
                                     <span class="heading__primary--sub" data-animation="fadeInUp" data-duration=".4s" data-delay=".7s">BD SkateCO</span>
                                     
                                 </h1>
-                                <a href="shop.html" class="btn" data-animation="fadeInUp" data-duration=".4s" data-delay="1.2s">Shop Now <i class="fa fa-angle-double-right"></i></a>
+                                <a href="{{route('shop')}}" class="btn" data-animation="fadeInUp" data-duration=".4s" data-delay="1.2s">Shop Now <i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -339,7 +209,7 @@
                                     <span class="heading__primary--sub" data-animation="fadeInUp" data-duration=".4s" data-delay=".7s">Droshky</span>
 
                                 </h1>
-                                <a href="shop.html" class="btn" data-animation="fadeInUp" data-duration=".4s" data-delay="1.2s">Shop Now <i class="fa fa-angle-double-right"></i></a>
+                                <a href="{{route('shop')}}" class="btn" data-animation="fadeInUp" data-duration=".4s" data-delay="1.2s">Shop Now <i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -354,7 +224,7 @@
                                     <span class="heading__primary--sub" data-animation="fadeInUp" data-duration=".4s" data-delay=".7s">NOMAD Deck</span>
 
                                 </h1>
-                                <a href="shop.html" class="btn" data-animation="fadeInUp" data-duration=".4s" data-delay="1.2s">Shop Now <i class="fa fa-angle-double-right"></i></a>
+                                <a href="{{route('shop')}}" class="btn" data-animation="fadeInUp" data-duration=".4s" data-delay="1.2s">Shop Now <i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -444,7 +314,7 @@
                                                         <!-- <span class="money-separator">-</span>
                                                         <span class="money">$200</span> -->
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -515,7 +385,7 @@
                                                         <span class="money-separator">-</span>
                                                         <span class="money">$200</span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -585,7 +455,7 @@
                                                         <span class="money-separator">-</span>
                                                         <span class="money">$200</span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -649,7 +519,7 @@
                                                         <span class="money-separator">-</span>
                                                         <span class="money">$200</span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -714,7 +584,7 @@
                                                         <span class="money-separator">-</span>
                                                         <span class="money">$200</span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -779,7 +649,7 @@
                                                         <span class="money-separator">-</span>
                                                         <span class="money">$200</span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -843,7 +713,7 @@
                                                         <span class="money-separator">-</span>
                                                         <span class="money">$200</span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -912,7 +782,7 @@
                                                             <span class="money">$150</span>
                                                         </span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -976,7 +846,7 @@
                                                         <span class="money-separator">-</span>
                                                         <span class="money">$200</span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1040,7 +910,7 @@
                                                         <span class="money-separator">-</span>
                                                         <span class="money">$200</span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1109,7 +979,7 @@
                                                         <span class="money-separator">-</span>
                                                         <span class="money">$200</span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1173,7 +1043,7 @@
                                                         <span class="money-separator">-</span>
                                                         <span class="money">$200</span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1238,7 +1108,7 @@
                                                         <span class="money-separator">-</span>
                                                         <span class="money">$200</span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1303,7 +1173,7 @@
                                                         <span class="money-separator">-</span>
                                                         <span class="money">$200</span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1367,7 +1237,7 @@
                                                         <span class="money-separator">-</span>
                                                         <span class="money">$200</span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1436,7 +1306,7 @@
                                                             <span class="money">$150</span>
                                                         </span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1500,7 +1370,7 @@
                                                         <span class="money-separator">-</span>
                                                         <span class="money">$200</span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1564,7 +1434,7 @@
                                                         <span class="money-separator">-</span>
                                                         <span class="money">$200</span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1633,7 +1503,7 @@
                                                         <span class="money-separator">-</span>
                                                         <span class="money">$200</span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1697,7 +1567,7 @@
                                                         <span class="money-separator">-</span>
                                                         <span class="money">$200</span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1762,7 +1632,7 @@
                                                         <span class="money-separator">-</span>
                                                         <span class="money">$200</span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1827,7 +1697,7 @@
                                                         <span class="money-separator">-</span>
                                                         <span class="money">$200</span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1891,7 +1761,7 @@
                                                         <span class="money-separator">-</span>
                                                         <span class="money">$200</span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1960,7 +1830,7 @@
                                                             <span class="money">$150</span>
                                                         </span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -2024,7 +1894,7 @@
                                                         <span class="money-separator">-</span>
                                                         <span class="money">$200</span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -2088,7 +1958,7 @@
                                                         <span class="money-separator">-</span>
                                                         <span class="money">$200</span>
                                                     </div>
-                                                    <a href="cart.html" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
+                                                    <a href="{{route('cart')}}" class="btn btn-small btn-bg-sand btn-color-dark">Add To Cart</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -2117,10 +1987,10 @@
                                 <div class="banner-info--inner text-center">
                                     <p class="banner-title-1 color--white">Up Coming Discount</p>
                                     <p class="banner-title-2 color--white mb--20 mb-lg--10">On Winter Clothing</p>
-                                    <a href="shop.html" class="btn banner-btn">Shop Now <i class="fa fa-angle-double-right"></i></a>
+                                    <a href="{{route('shop')}}" class="btn banner-btn">Shop Now <i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
-                            <a href="shop.html" class="banner-link"></a>
+                            <a href="{{route('shop')}}" class="banner-link"></a>
                         </div>
                     </div>
                 </div>
@@ -2134,10 +2004,10 @@
                                 <div class="banner-info--inner text-center">
                                     <p class="banner-title-1 color--white">Up Coming Discount</p>
                                     <p class="banner-title-2 color--white mb--20 mb-lg--10">On Winter Clothing</p>
-                                    <a href="shop.html" class="btn banner-btn">Shop Now <i class="fa fa-angle-double-right"></i></a>
+                                    <a href="{{route('shop')}}" class="btn banner-btn">Shop Now <i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
-                            <a href="shop.html" class="banner-link"></a>
+                            <a href="{{route('shop')}}" class="banner-link"></a>
                         </div>
                     </div>
                 </div>
@@ -2353,8 +2223,8 @@
                     <span class="ammount">$98.00</span>
                 </div>
                 <div class="mini-cart__buttons">
-                    <a href="cart.html" class="btn btn-fullwidth btn-bg-sand mb--20">View Cart</a>
-                    <a href="checkout.html" class="btn btn-fullwidth btn-bg-sand">Checkout</a>
+                    <a href="{{route('cart')}}" class="btn btn-fullwidth btn-bg-sand mb--20">View Cart</a>
+                    <a href="{{route('checkout')}}" class="btn btn-fullwidth btn-bg-sand">Checkout</a>
                 </div>
             </div>
         </div>
@@ -2481,16 +2351,16 @@
                     <input type="number" class="quantity-input" name="qty" id="quick-qty" value="1" min="1">
                 </div>
             </div>
-            <button type="button" class="btn btn-small btn-bg-red btn-color-white btn-hover-2" onclick="window.location.href='cart.html'">
+            <button type="button" class="btn btn-small btn-bg-red btn-color-white btn-hover-2" onclick="window.location.href='{{route('cart')}}'">
                 Add To Cart
             </button>
         </div>  
         <div class="product-footer-meta">
             <p><span>Category:</span>
-                <a href="shop.html">Full Sweater</a>,
-                <a href="shop.html">SweatShirt</a>,
-                <a href="shop.html">Jacket</a>,
-                <a href="shop.html">Blazer</a>
+                <a href="{{route('shop')}}">Full Sweater</a>,
+                <a href="{{route('shop')}}">SweatShirt</a>,
+                <a href="{{route('shop')}}">Jacket</a>,
+                <a href="{{route('shop')}}">Blazer</a>
             </p>
         </div>
     </div>
