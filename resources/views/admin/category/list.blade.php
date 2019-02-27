@@ -1,4 +1,4 @@
-@extends('admin.home')
+@extends('admin.master')
 
 @section('content')
 <div class="breadcrumbs">
