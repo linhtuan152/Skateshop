@@ -20,6 +20,7 @@
 
     <!-- style css -->
     <link rel="stylesheet" href="public/assets/css/main.css">
+    <link rel="stylesheet" href="{{url('/')}}/public/admin/assets/css/style.css">
 
 </head>
 
@@ -193,7 +194,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-sm-6 text-sm-left text-center mb-xs--10">
-                    <p class="copyright-text"><a href="{{route('home')}}">Zakas</a> &copy; 2019 all rights reserved</p>
+                    <p class="copyright-text"><a href="{{route('home')}}">Skateshop</a> &copy; 2019 all rights reserved</p>
                 </div>
                 <div class="col-sm-6 text-sm-right text-center">
                     <figure>
@@ -227,46 +228,26 @@
             <h3 class="mini-cart__heading mb--40 mb-lg--30">Shopping Cart</h3>
             <div class="mini-cart__content">
                 <ul class="mini-cart__list">
+                    @if(isset($cart))
+                    @foreach($cart as $key=>$value)
                     <li class="mini-cart__product">
-                        <a href="#" class="remove-from-cart remove">
+                        <a href="{{route('del-cart',[$key])}}" class="remove-from-cart remove">
                             <i class="flaticon flaticon-cross"></i>
                         </a>
                         <div class="mini-cart__product__image">
-                            <img src="public/assets/img/products/prod-1-100x100.jpg" alt="products">
+                            <img src="{{$value['img']}}" alt="products">
                         </div>
                         <div class="mini-cart__product__content">
-                            <a class="mini-cart__product__title" href="{{route('product-detail')}}">Chain print bermuda shorts  </a>
-                            <span class="mini-cart__product__quantity">1 x $49.00</span>
+                            <a class="mini-cart__product__title" href="{{route('product-detail')}}">{{$value['name_pro']}}  </a>
+                            <span class="mini-cart__product__quantity">{{$value['quantity']}} x {{$value['price_pro']}} VND</span>
                         </div>
                     </li>
-                    <li class="mini-cart__product">
-                        <a href="#" class="remove-from-cart remove">
-                            <i class="flaticon flaticon-cross"></i>
-                        </a>
-                        <div class="mini-cart__product__image">
-                            <img src="public/assets/img/products/prod-2-100x100.jpg" alt="products">
-                        </div>
-                        <div class="mini-cart__product__content">
-                            <a class="mini-cart__product__title" href="{{route('product-detail')}}">Waxed-effect pleated skirt</a>
-                            <span class="mini-cart__product__quantity">1 x $49.00</span>
-                        </div>
-                    </li>
-                    <li class="mini-cart__product">
-                        <a href="#" class="remove-from-cart remove">
-                            <i class="flaticon flaticon-cross"></i>
-                        </a>
-                        <div class="mini-cart__product__image">
-                            <img src="public/assets/img/products/prod-5-100x100.jpg" alt="products">
-                        </div>
-                        <div class="mini-cart__product__content">
-                            <a class="mini-cart__product__title" href="{{route('product-detail')}}">Waxed-effect pleated skirt</a>
-                            <span class="mini-cart__product__quantity">1 x $49.00</span>
-                        </div>
-                    </li>
+                    @endforeach
+                    @endif
                 </ul>
                 <div class="mini-cart__total">
                     <span>Subtotal</span>
-                    <span class="ammount">$98.00</span>
+                    <span class="ammount">{{$total}} VND</span>
                 </div>
                 <div class="mini-cart__buttons">
                     <a href="{{route('cart')}}" class="btn btn-fullwidth btn-bg-sand mb--20">View Cart</a>
