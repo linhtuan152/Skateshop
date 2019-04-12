@@ -1,0 +1,14 @@
+.top{
+
+}
+.top img{
+	height: 300px;
+	border: 8px double #CCC;
+	width: 100%;
+}
+.text-muted{
+	color: red !important;
+}
+.table tbody td.product-quantity .quantity-input {
+    border-color: #DDDDDD;
+}
